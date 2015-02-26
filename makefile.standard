@@ -1,0 +1,24 @@
+# makefile.standard
+# (c) 2014 Vince Mulhollon GPLv3
+#
+# Standard makefile includes for 3d printing
+#
+
+# pkg install admesh
+ADMESH = /usr/local/bin/admesh
+
+# pip install https://github.com/vishnubob/octocmd/archive/master.zip
+OCTOCMD = 
+
+# pkg install openscad
+OPENSCAD = /usr/local/bin/openscad
+
+# cd ~/Dropbox/printrbot/software
+# git clone git://github.com/alexrj/Slic3r
+# cd Slic3r
+# pkg install p5-App-cpanminus
+# sudo perl Build.PL
+SLIC3R = $(HOME)/Dropbox/printrbot/software/Slic3r/slic3r.pl
+SLIC3R_STANDARD = $(HOME)/Dropbox/printrbot/configs/slic3r.ini.standard
+
+#
