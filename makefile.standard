@@ -7,8 +7,8 @@
 # pkg install admesh
 ADMESH = /usr/local/bin/admesh
 
-# pip install https://github.com/vishnubob/octocmd/archive/master.zip
-OCTOCMD = 
+# pip install https://github.com/DanLipsitt/octocmd/archive/master.zip
+OCTOCMD = /usr/local/bin/octocmd
 
 # pkg install openscad
 OPENSCAD = /usr/local/bin/openscad
