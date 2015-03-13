@@ -16,6 +16,7 @@ OPENSCAD = /usr/local/bin/openscad
 # cd ~/Dropbox/printrbot/software
 # git clone git://github.com/alexrj/Slic3r
 # cd Slic3r
+# git checkout stable
 # pkg install p5-App-cpanminus
 # sudo perl Build.PL
 SLIC3R = $(HOME)/Dropbox/printrbot/software/Slic3r/slic3r.pl
