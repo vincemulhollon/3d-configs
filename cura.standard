@@ -1,7 +1,7 @@
 layerThickness = 200
 initialLayerThickness = 300
 filamentDiameter = 1750
-filamentFlow = 100
+filamentFlow = 105
 fanSpeedMin = 65
 fanSpeedMax = 100
 infillSpeed = 50
