@@ -13,19 +13,10 @@ OCTOCMD = /usr/local/bin/octocmd
 # pkg install openscad
 OPENSCAD = /usr/local/bin/openscad
 
-# cd ~/Dropbox/printrbot/software
-# git clone git://github.com/alexrj/Slic3r
-# cd Slic3r
-# git checkout stable
-# pkg install p5-App-cpanminus
-# sudo perl Build.PL
-SLIC3R = $(HOME)/Dropbox/printrbot/software/Slic3r/slic3r.pl
-SLIC3R_STANDARD = $(HOME)/Dropbox/printrbot/configs/slic3r.ini.standard
-
 # pkg install CuraEngine
 CURA = /usr/local/bin/CuraEngine
 CURA_STANDARD = $(HOME)/Dropbox/printrbot/configs/cura.standard
-CURA_HEADER = $(HOME)/Dropbox/printrbot/configs/header.gcode
-CURA_FOOTER = $(HOME)/Dropbox/printrbot/configs/footer.gcode
+CURA_HEADER = $(HOME)/Dropbox/printrbot/configs/cura.header.gcode
+CURA_FOOTER = $(HOME)/Dropbox/printrbot/configs/cura.footer.gcode
 
 #
