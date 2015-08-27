@@ -1,5 +1,6 @@
 layerThickness = 200
 initialLayerThickness = 300
+initialLayerSpeed = 20
 filamentDiameter = 1750
 filamentFlow = 105
 fanSpeedMin = 65
@@ -10,6 +11,7 @@ printSpeed = 50
 moveSpeed = 150
 extrusionWidth = 400
 layer0extrusionWidth = 600
+skirtDistance = 2000
 skirtLineCount = 3
 downSkinCount = 5
 upSkinCount = 7
